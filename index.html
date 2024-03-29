@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Form</title>
+</head>
+<body>
+    <section>
+        <form action="#">
+            <h2>Samsung Giveaway</h2>
+            <div class="info1">
+                <label for="name">Name</label>
+                <input type="text" id="nome" name="nome" required></form>
+                <br><br>
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+                <br><br>
+                <label for="telefone">Phone</label>
+                <input type="tel" id="telefone" name="telefone" required>
+            <br><br>
+            </div>
+
+            <div class="devices">
+            <label for="option">Which device do you already have from samsung?</label><br>
+            <select name="option[]" id="option" multiple>
+                <option value="celular">Cell phone</option>
+                <option value="notebook">notebook</option>
+                <option value="tablet">Tablet</option>
+                <option value="monitor">Monitor</option>
+                <option value="tv">Tv</option>
+                <option value="relogio">SmartWatch</option>
+            </select>
+            <br><br>
+            </div>
+
+            <div class="checkbox1">
+            <label for="chb-termos">
+                <input type="checkbox" name="chk-termos" id="termos">
+                I have read and accept the terms and conditions
+            </label>
+            <br>
+            </div>
+            <div class="checkbox2">
+            <label for="chb-notif">
+            <input type="checkbox" name="chk-termos" id="termos">
+            I agree to receive news from samsung by email
+            </label>
+            </div>
+            <br><br>
+            <button>Participar</button>
+            
+        </form>
+    </section>
+</body>
+</html>
